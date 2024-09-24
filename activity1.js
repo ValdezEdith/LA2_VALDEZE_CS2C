@@ -1,25 +1,23 @@
-let fName ="Edith ";
-let mName ="Inigo ";
-let lName ="Valdez "
-let bDate = "October 20, 2005 ";
-let bPlace = "Resonable, Candon City, Ilocos Sur, Phillipene 2710 ";
-let addressed = "Patac, Galimuyod,Ilocos Sur,Phillipine 2709. ";
-let Course = "bachelor Of science in computer science ";
-let Dream = "App Developer";
+//student 1 information
+var Name = "[Edith Inigo Valdez]";
+var birthdate = "[October 20, 2005 ]";
+var birthPlace = "[Resonable, Candon City, Ilocos Sur, Phillipene 2710 ]";
+var addressed = "[Patac, Galimuyod,Ilocos Sur,Phillipine 2709. ]";
+var Course = "[bachelor Of science in computer science ]";
+var Dream = "[App and Game Developer]";
+var Year = "2";
 
+console.log (Name.toUpperCase() + "was born"+ birthdate + "at" + birthPlace.toUpperCase() + "and currently living at "+ addressed.toUpperCase() + ".");
+console.log (Name.toLowerCase() + "is taking up"+ Course.toLowerCase() + "and dreams to be" + Dream + "after graduation");
 
-let fullName = fName.toUpperCase() + mName.toUpperCase() + lName.toUpperCase();
+//student2 information
+var Name = "[Ermalyn Calindas Estabillo]";
+var birthdate = "[September 26, 2004]";
+var birthPlace = "[Sta Lucia,Ilocos Sur,Philippine 2710 ]";
+var addressed = "[Bagani Campo,Candon City,Ilocos Sur, Philippine 2709 ]";
+var Course = "[bachelor Of science in computer science ]";
+var Dream = "[computer engineer]";
+var Year = "2";
 
-let fulName = fName + mName + lName;
-fullName += "was born ";
-bDate += "at ";
-bPlace += "and currently living at ";
-let output1 = fullName + bDate + bPlace + addressed;
-
-fulName += "is taking up "
-Course += "and dreams to be "
-let output2 = fulName +  Course + Dream;
-
-console.log(output1)
-console.log(output2)
-
+console.log (Name.toUpperCase() + "was born"+ birthdate + "at" + birthPlace.toUpperCase() + "and currently living at "+ addressed.toUpperCase() + ".");
+console.log (Name.toLowerCase() + "is taking up"+  Course.toLowerCase() + "and dreams to be" + Dream + "after graduation");
